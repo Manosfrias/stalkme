@@ -1,0 +1,41 @@
+body
+  color: $yellow
+  font-family: $font-regular
+
+.archive
+    header
+        +bg-gradient($dark-grey, $medium-dark-grey, $medium-ligth-grey)
+        position: fixed
+        top: 0
+        text-align: center
+
+    main
+        +bg-gradient($dark-grey, $medium-dark-grey, $light-grey)
+        margin-top: 340px
+
+.detail
+    +bg-gradient($dark-grey, $medium-dark-grey, $light-grey)
+    min-height: 100vh
+
+    h1
+        font-size: 45px
+        margin-bottom: 80px
+        text-align: center
+
+header
+    padding: 65px #{$padding} 55px
+    img
+            display: block
+            margin: 0 auto 50px
+            max-height: 90px
+            width: auto
+
+main
+    padding: 55px #{$padding}
+
+    article
+        border: 2px solid $yellow
+        padding: 30px
+        text-align: center
+        &:not(:last-of-type)
+            margin-bottom: 45px

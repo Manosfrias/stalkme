@@ -1,0 +1,16 @@
+{
+  "name": "stalk-me-now",
+  "version": "1.0.0",
+  "description": "Web de apoyo para la instalación de Stalk me now",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ana Manosfrias",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0"
+  }
+}
